@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fomulaire</title>
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css" />
+  </head>
+  <body>
+    
+    <div class="row mx-3 px-auto">
+      <div class="col-md-6 mx-auto">
+        <!-- premier formulaire  -->
+
+        <div class="row">
+          <div class="card mt-4 mx-2">
+            <div class="card-body">
+              <div class="card-text">
+                <form action="" class="form" id="formulaire">
+                  <h3>Informations de connexion</h3>
+                  <div class="form-group">
+                    <label for="pseudo" class="form-label">Pseudo</label>
+                    <input type="text" name="pseudo" id="pseudo"  class="form-control" placeholder="Votre pseudo en un seule mot" required/>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="password" class="form-label">Mot de passe</label>
+                    <input type="password" name="password" id="password"  class="form-control" placeholder="Votre mot de passe" minlength="8" required/>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="passwordConfirm" class="form-label">Mot de passe</label>
+                    <input type="password" name="passwordConfirm" id="passwordConfirm"  class="form-control" placeholder="Confirmer votre mot de passe" minlength="8" required/>
+                  </div>
+
+                  <div class="form-group my-2">
+                   <button type='button' class="btn btn-success" id="submit">Envoyer</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Premier formulaire fin -->
+ 
+      </div>
+    </div>
+
+    <script src="./public/js/bootstrap.min.js"></script>
+    <script src="./public/js/jquery.min.js"></script>
+    <script src="./public/js/myjs.js"></script>
+
+  </body>
+</html>
